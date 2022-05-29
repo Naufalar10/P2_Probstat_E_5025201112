@@ -39,7 +39,9 @@ Berdasarkan data pada tabel diatas, diketahui kadar saturasi oksigen dari respon
          perbedaan_Saturasi <- setelah_aktivitas - sebelum_aktivitas
          sd(perbedaan_Saturasi)
         ```
-
+      ![ss1][ss1a]
+      
+      [ss1a]: probstat_2/1a.png
      
 
 </br>
