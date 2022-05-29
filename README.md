@@ -41,7 +41,7 @@ Berdasarkan data pada tabel diatas, diketahui kadar saturasi oksigen dari respon
         ```
       ![ss1][ss1a]
       
-      [ss1a]: probstat_2/1a.png
+      [ss1a]: probstat2/1a.png
      
 
 </br>
@@ -53,6 +53,9 @@ Berdasarkan data pada tabel diatas, diketahui kadar saturasi oksigen dari respon
          t.test(sebelum_aktivitas, setelah_aktivitas, paired = TRUE)
        ```    
        Sehingga Hasilnya sebagai berikut:
+        ![ss1][ss1b]
+      
+      [ss1b]: probstat2/1b.png
        
      
   
@@ -86,6 +89,9 @@ Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahu
           ```
           H1 : μ > 20000
           ```
+           ![ss1][ss2b]
+      
+      [ss2b]: probstat2/2b.png
 
        
        
@@ -93,11 +99,16 @@ Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahu
 
   - C. Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
   
-       Untuk mencari nilai z nya yaitu 
+       Untuk mencari nilai z nya yaitu
        </br>
-       
-
+        ![ss1][ss2c1]
+      
+      [ss2c1]: probstat2/2c1.png
        Lalu mencari nilai p-value nya sebagai berikut
+       </br>
+        ![ss1][ss2c2]
+      
+      [ss2c2]: probstat2/2c2.png
                
        
 
@@ -129,25 +140,30 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
   - A. H0 dan H1
     dilakukan perhitungan H0 sebagai berikut
     </br>
-   
+     ![ss1][ss3a]
+      
+      [ss3a]: probstat2/3a.png
+    
     </br>
     
     dilakukan perhitungan H1 sebagai berikut
     </br>
     
-    
+     ![ss1][ss3a1]
+      
+      [ss3a1]: probstat2/3a1.png
     </br>
 
   - B. Hitung Sampel Statistik
       Untuk menghitung sampel statistik dapat menggunakan fungsi `tsum.test` yaitu sebagai berikut
-
-        ```
-        tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, mean.y =2.79 , s.y = 1.32, n.y = 27, alternative = "greater", var.equal = TRUE)
-        ```
-  
-      <
+```
+tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, mean.y =2.79 , s.y = 1.32, n.y = 27, alternative = "greater", var.equal = TRUE)
+```
+ 
+   ![ss1][ss3b]
       
-      </br>
+      [ss3b]: probstat2/3b.png
+      
 
   - C. Lakukan Uji Statistik (df = 2) 
       Menggunakan bantuan library `mosaic`
@@ -155,7 +171,9 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
       
       
       Sehingga Hasilnya sebagai berikut:
-     
+       ![ss1][ss3c]
+      
+      [ss3c]: probstat2/3c.png     
 
       </br>
   
@@ -163,6 +181,10 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
        Untuk menghitung sampel statistik dapat menggunakan fungsi `qchisq` dengan `df=2` yaitu sebagai berikut
 
        Sehingga Hasilnya sebagai berikut:
+       
+        ![ss1][ss3d]
+      
+      [ss3d]: probstat2/3d.png
 
        
 
@@ -218,6 +240,9 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
         dim(myFile)
         head(myFile)
       ```
+       ![ss1][ss4a]
+      
+      [ss4a]: probstat2/4a.png
       
 
       Selanjutnya membuat myFile menjadi group 
@@ -261,7 +286,9 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
         qqnorm(group1$Length)
         qqline(group1$Length)
         ```
-
+      ![ss1][ss4c]
+      
+      [ss4c]: probstat2/4c.png
         
         
         </br>
@@ -346,6 +373,9 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
         head(GTL)
         ```
         
+       ![ss1][ss5a]
+      
+      [ss5a]: probstat2/5a.png
         
 
         Lakukan observasi pada data
@@ -354,7 +384,9 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
         str(GTL)
         ```
         
-         
+         ![ss1][ss5a1]
+      
+      [ss5a1]: probstat2/5a1.png 
         
         </br>
 
@@ -365,7 +397,9 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
           facet_grid(.~Glass, labeller = label_both)
         ```
         
-       
+        ![ss1][ss5a2]
+      
+      [ss5a2]: probstat2/5a2.png
         
         </br>
         
@@ -378,7 +412,9 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
         GTL$Temp_Factor <- as.factor(GTL$Temp)
         str(GTL)
         ```
-        
+         ![ss1][ss5b]
+      
+      [ss5b]: probstat2/5b.png
         
         </br>
 
@@ -400,9 +436,11 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
             arrange(desc(mean))
           print(data_summary)
           ```
-       
-        
-        </br>
+      
+      ![ss1][ss5c]
+      [ss5c]: probstat2/5c.png
+      
+      </br>
         
      - D. Lakukan uji Tukey
           Menggunakan fungsi `TukeyHSD` sebagai berikut
@@ -411,6 +449,10 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
           tukey <- TukeyHSD(anova)
           print(tukey)
           ```
+          
+         ![ss1][ss5d]
+      
+      [ss5d]: probstat2/5d.png
           
           
      - E. Gunakan compact letter display untuk menunjukkan perbedaan signifikan antara uji Anova dan uji Tukey
@@ -422,6 +464,9 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
           print(tukey.cld)
           ```
           
+          ![ss1][ss5e1]
+      
+      [ss5e1]: probstat2/5e1.png
           
           
           </br>
@@ -433,5 +478,7 @@ Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan
           data_summary$Tukey <- cld$Letters
           print(data_summary)
           ```
-          
+           
+       ![ss1][ss5e2]
+     [ss5e2]: probstat2/5e2.png
           
