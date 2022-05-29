@@ -162,7 +162,7 @@ tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, mean.y =2.79 , s.y = 1.32, n.y = 27
  
    ![ss1][ss3b]
       
-      [ss3b]: probstat2/3b.png
+  [ss3b]: probstat2/3b.png
       
 
   - C. Lakukan Uji Statistik (df = 2) 
@@ -182,7 +182,7 @@ tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, mean.y =2.79 , s.y = 1.32, n.y = 27
 
        Sehingga Hasilnya sebagai berikut:
        
-        ![ss1][ss3d]
+       ![ss1][ss3d]
       
       [ss3d]: probstat2/3d.png
 
@@ -384,7 +384,7 @@ tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, mean.y =2.79 , s.y = 1.32, n.y = 27
         str(GTL)
         ```
         
-         ![ss1][ss5a1]
+        ![ss1][ss5a1]
       
       [ss5a1]: probstat2/5a1.png 
         
@@ -412,7 +412,7 @@ tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, mean.y =2.79 , s.y = 1.32, n.y = 27
         GTL$Temp_Factor <- as.factor(GTL$Temp)
         str(GTL)
         ```
-         ![ss1][ss5b]
+        ![ss1][ss5b]
       
       [ss5b]: probstat2/5b.png
         
@@ -437,8 +437,8 @@ tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, mean.y =2.79 , s.y = 1.32, n.y = 27
           print(data_summary)
           ```
       
-      ![ss1][ss5c]
-      [ss5c]: probstat2/5c.png
+        ![ss1][ss5c]
+        [ss5c]: probstat2/5c.png
       
       </br>
         
@@ -479,6 +479,6 @@ tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, mean.y =2.79 , s.y = 1.32, n.y = 27
           print(data_summary)
           ```
            
-       ![ss1][ss5e2]
-     [ss5e2]: probstat2/5e2.png
+     ![ss1][ss5e2]
+    [ss5e2]: probstat2/5e2.png
           
