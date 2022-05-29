@@ -89,7 +89,7 @@ Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahu
           ```
           H1 : μ > 20000
           ```
-           ![ss1][ss2b]
+       ![ss1][ss2b]
       
       [ss2b]: probstat2/2b.png
 
@@ -438,6 +438,7 @@ tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, mean.y =2.79 , s.y = 1.32, n.y = 27
           ```
       
         ![ss1][ss5c]
+        
         [ss5c]: probstat2/5c.png
       
       </br>
@@ -480,5 +481,6 @@ tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, mean.y =2.79 , s.y = 1.32, n.y = 27
           ```
            
      ![ss1][ss5e2]
-    [ss5e2]: probstat2/5e2.png
+     
+      [ss5e2]: probstat2/5e2.png
           
